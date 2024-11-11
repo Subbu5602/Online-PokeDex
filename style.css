@@ -1,3 +1,4 @@
+/*global css values, can be used anywhere in file */
 :root {
   --identity-primary: #dc0a2d;
 
@@ -71,13 +72,11 @@ h4 {
   line-height: var(--caption-line-height);
 }
 
+/* remove selected outline when selecting an input field */
 input:focus-visible {
   outline: 0;
 }
 
-.featured-img a.arrow.hidden {
-  display: none;
-}
 
 body {
   margin: 0;
@@ -142,6 +141,7 @@ body {
   margin-left: 16px;
 }
 
+/* svg has a path attribute and we convert it to red */
 .search-wrap svg path {
   fill: var(--identity-primary);
 }
@@ -165,18 +165,15 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
+  cursor: pointer;
 }
 
 .search-close-icon {
   position: absolute;
   right: 1rem;
-  display: none;
   cursor: pointer;
 }
 
-.search-close-icon-visible {
-  display: block;
-}
 
 .filter-wrapper {
   position: absolute;

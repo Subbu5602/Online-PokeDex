@@ -1,3 +1,5 @@
+<!-- Main Page -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,8 +10,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body>
     <main class="main">
+
+        <!-- Top Bar with Search and Filter -->
         <header class="header home">
             <div class="container">
                 <div class="logo-wrappper">
@@ -30,13 +35,13 @@
                             <p class="body2-fonts">Sort By:</p>
                             <div class="filter-wrap">
                                 <div>
-
-                                    <input type="radio" id="number" name="filters" value="number" checked>
-                                    <label for="number" class="body3-fonts">Number</label>
+                                    <input type="radio" name="filters" id="name" value="name" checked>
+                                    <label for="name" class="body3-fonts">Name</label>
                                 </div>
                                 <div>
-                                    <input type="radio" name="filters" id="name" value="name">
-                                    <label for="name" class="body3-fonts">Name</label>
+
+                                    <input type="radio" name="filters" id="number" value="number">
+                                    <label for="number" class="body3-fonts">Number</label>
                                 </div>
                             </div>
                         </div>
@@ -44,6 +49,8 @@
                 </div>
             </div>
         </header>
+
+        <!-- Main Section with Pokemons -->
         <section class="pokemon-list">
             <div class="container">
                 <div class="list-wrapper"></div>

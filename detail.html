@@ -12,6 +12,7 @@
     <main class="detail-main main">
         <header class="header">
             <div class="header-wrapper">
+                <!-- Back Button, Pokemon Name, Pokemon Id -->
                 <div class="header-wrap">
                     <a href="./index.html" class="back-btn-wrap">
                         <img src="./assets/back-to-home.svg" alt="Back To Home" class="back-btn" id="back-btn">
@@ -25,6 +26,7 @@
                 </div>
             </div>
         </header>
+        <!-- Pokemon Image, Left and Right Arrow -->
         <div class="featured-img">
             <a href="#" class="arrow left-arrow" id="leftArrow">
                 <img src="./assets/chevron_left.svg" alt="back">
@@ -36,13 +38,16 @@
                 <img src="./assets/chevron_right.svg" alt="">
             </a>
         </div>
+        <!-- Pokemon card -->
         <div class="detail-card-detail-wrapper">
             <div class="power-wrapper">
+                <!-- Intially giving grass and poison colors, content of p tag will say the pokemon type -->
                 <p class="body3-fonts type grass"></p>
                 <p class="body3-fonts type poison"></p>
             </div>
             <p class="body2-font about-text">About</p>
             <div class="pokemon-detail-wrapper">
+                <!-- Weight -->
                 <div class="pokemon-detail-wrap">
                     <div class="pokemon-detail">
                         <img src="./assets/weight.svg" alt="Weight">
@@ -50,6 +55,7 @@
                     </div>
                     <p class="caption-fonts">Weight</p>
                 </div>
+                <!-- Height -->
                 <div class="pokemon-detail-wrap">
                     <div class="pokemon-detail">
                         <img src="./assets/height.svg" alt="Height" class="straighten">
@@ -57,19 +63,20 @@
                     </div>
                     <p class="caption-fonts">Height</p>
                 </div>
+                <!-- Moves -->
                 <div class="pokemon-detail-wrap">
                     <div class="pokemon-detail move">
                     </div>
                     <p class="caption-fonts">Move</p>
                 </div>
             </div>
-            <p class="body3-fonts pokemon-description"></p>
+            <p class="body3-fonts pokemon-description"></p> <!--Description to be filled-->
             <p class="body2-fonts about-text">Base Stats</p>
             <div class="stats-wrapper">
                 <div class="stats-wrap" data-stat="hp">
                     <p class="body3-fonts stats">HP</p>
-                    <p class="body3-fonts"></p>
-                    <progress value="" max="100" class="progress-bar"></progress>
+                    <p class="body3-fonts"></p> <!--To be filled with specific hp-->
+                    <progress value="" max="100" class="progress-bar"></progress> <!--make a progress bar of max value 100-->
                 </div>
                 <div class="stats-wrap" data-stat="atk">
                     <p class="body3-fonts stats">ATK</p>
@@ -88,7 +95,7 @@
                 </div>
             </div>
         </div>
-        <img src="./assets/pokedex.svg" alt="Pokedex" class="detail-bg">
+        <img src="./assets/pokedex.svg" alt="Pokedex" class="detail-bg"> <!--Faded pokeball in background-->
     </main>
 </body>
 
